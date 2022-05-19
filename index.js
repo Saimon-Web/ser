@@ -66,5 +66,5 @@ app.get('/',(req,res) => {
     res.send('running node practice one')
 })
 app.listen(port,() => {
-    console.log('data connected')
+    console.log('data connected',port)
 })
